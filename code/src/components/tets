@@ -1,12 +1,36 @@
-// {productsJson.map((item) => {
-//   return  <Product prodName={item.name} />
-// })}
-
-
-        // <h1>Hello there {this.props.name}</h1>
 
 
 
-        {productsJson.map((item) => {
-          return <Product prodName={item.name} />
-        })}
+
+        <div className="imageHolder">
+          <style> .imageHolder{
+  background-image: url("paper.gif");
+</style>
+          <img className="image" src={this.props.prodImage}></img>
+        </div>
+
+
+        <div className="header">
+          <div className="headerHeading">Hildas Apotek</div>
+          <div className="headerHeading">Technology</div>
+          <div className="headerHeading">Creativity</div>
+          <div className="headerHeading">Entrepreneurship</div>
+          <div className="headerHeading">Self</div>
+          <div className="headerHeading">Culture</div>
+          <div className="headerHeading">Digital design</div>
+          <div className="headerHeading">Politics</div>
+          <div className="headerHeading">Popular on Medium</div>
+          <div className="headerHeading">More</div>
+          <div className="headerHeading">
+          <button id="headerButton">
+            Get Started
+          </button>
+        </div>
+
+
+
+        <div className="apotek">Hildas Apotek</div>
+        <div className="headerHeading">Om Apoteket</div>
+        <div className="headerHeading">Hitta apotek /div>
+        <div className="headerHeading">Kundservice</div>
+        <div className="headerHeading">Logga in</div>
