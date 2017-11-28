@@ -17,7 +17,8 @@ class Page extends React.Component {
             prodNumberInPack={item.numberInPack}
             prodDeliveryTime={item.deliveryTime}
             prodImage={item.image}
-            prodSubstance={item.substance}/>
+            prodSubstance={item.substance}
+            prodDescription={item.description}/>
         })}
 
       </div>

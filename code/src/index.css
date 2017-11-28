@@ -64,13 +64,20 @@ h1, .deliveryTime, .priceHolder {
   border: 1px solid #cacaca;
 }
 
-.name{
+.productTop {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.name, .name2 {
   font-size: 20px;
   margin: 10px;
+  margin-left: 0;
 }
 
 .imageHolder {
-  width: 150px;
+  width: 100%;
   height: 100px;
   align-self: center;
   background-position: center;
@@ -78,6 +85,30 @@ h1, .deliveryTime, .priceHolder {
   background-repeat: no-repeat;
   overflow: hidden;
   margin: 5px;
+}
+
+.description {
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+
+.oneProduct:hover .description {
+  display: block;
+  z-index: 3;
+}
+
+.oneProduct:hover .name {
+  display: none;
+}
+
+.oneProduct:hover .list {
+  display: none;
+}
+
+.oneProduct:hover .imageHolder {
+display: none;
 }
 
 .list{
