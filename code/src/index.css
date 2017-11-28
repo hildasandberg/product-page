@@ -9,7 +9,6 @@ body {
 .header {
   background-color: #82bd82;
   height: 75px;
-  border-bottom: 2px solid #e4e4e4;
   padding-left: 13%;
   padding-right: 13%;
   display: flex;
@@ -17,6 +16,20 @@ body {
   justify-content: space-between;
   align-items: center;
 
+}
+
+.page {
+  width: 90%;
+  margin-left: 5%;
+}
+
+.productHeader {
+  padding: 5px;
+  text-align: center;
+  margin: auto;
+  margin-top: 10px;
+  width: 92%;
+  background-color: #cacaca;
 }
 
 .apotek {
@@ -39,6 +52,7 @@ body {
   width: 100px;
   height: 30px;
   border-radius: 15px;
+  border: 0;
 }
 
 h1, .deliveryTime, .priceHolder {
@@ -46,17 +60,16 @@ h1, .deliveryTime, .priceHolder {
 }
 
 .productPage {
-  width: 90%;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-left: 5%;
 }
 
 .oneProduct {
   background-color: white;
-  width: 15%;
-  margin: 15px;
+  width: 16%;
+  margin: 2%;
   padding: 2%;
   display: flex;
   flex-direction: column;
@@ -138,6 +151,11 @@ display: none;
   width: 60px;
   height: 30px;
   border-radius: 15px;
+  border: 0;
+}
+
+.button:hover {
+  background-color: #ffeb3b;
 }
 
 .deliveryTime {
