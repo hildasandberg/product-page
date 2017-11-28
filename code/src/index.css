@@ -48,9 +48,9 @@ body {
 #headerButton {
   font-family: 'Roboto Condensed', sans-serif;
   background-color: #ffeb3b;
-  font-size: 15px;
-  width: 100px;
-  height: 30px;
+  font-size: 20px;
+  width: 150px;
+  height: 40px;
   border-radius: 15px;
   border: 0;
 }
