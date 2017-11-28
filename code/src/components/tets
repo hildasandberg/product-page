@@ -1,0 +1,12 @@
+// {productsJson.map((item) => {
+//   return  <Product prodName={item.name} />
+// })}
+
+
+        // <h1>Hello there {this.props.name}</h1>
+
+
+
+        {productsJson.map((item) => {
+          return <Product prodName={item.name} />
+        })}
